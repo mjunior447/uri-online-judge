@@ -1,4 +1,4 @@
 X = float(input())
 Y = float(input())
 consumo_medio = X / Y
-print(str(consumo_medio) + " km/l")
+print(str(round(consumo_medio, 3)) + " km/l")
